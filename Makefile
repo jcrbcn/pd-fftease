@@ -34,7 +34,7 @@ EXTRA_DIST = MSPd.h PenroseOscil.h PenroseRand.h bashfest.h fftease.h ugens.h
 UNITTESTS = 
 
 
-SHARED_SOURCE = bloscbank.c convert.c fft.c fft4.c fftease_setup.c fftease_utilities.c fold.c leanconvert.c leanunconvert.c legacy.c limit_fftsize.c limited_oscbank.c makewindows.c oscbank.c overlapadd.c PenroseOscil.c PenroseRand.c power_of_two.c qsortE.c unconvert.c 
+SHARED_SOURCE = bloscbank.c convert.c fft.c fft4.c fftease_setup.c fftease_utilities.c fold.c leanconvert.c leanunconvert.c limit_fftsize.c limited_oscbank.c makewindows.c oscbank.c overlapadd.c PenroseOscil.c PenroseRand.c power_of_two.c qsortE.c unconvert.c 
 SHARED_LIB = lib$(LIBRARY_NAME).$(SHARED_EXTENSION)
 
 #------------------------------------------------------------------------------#
